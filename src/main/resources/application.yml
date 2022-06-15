@@ -1,0 +1,20 @@
+welcome:
+  Welcome to Spring boot application!
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+  datasource:
+    username: root
+    url: "jdbc:mysql://localhost:3306/cena"
+    password: Cena0607.
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update      
+server:
+  port: '8081'
+
+  

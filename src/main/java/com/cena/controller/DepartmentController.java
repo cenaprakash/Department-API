@@ -38,7 +38,9 @@ public class DepartmentController {
 	}
 	
 	@GetMapping("/departments/welcome")
-	public String getMessage() {		
+	public String getMessage() {	
+		
+		System.out.println("Hi ");
 
 		return welcomeMessage;
 
